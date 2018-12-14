@@ -83,12 +83,10 @@ html {
 
 
  #about1 {
-    margin-top: 43px;
-    margin-left: 20px;
-    float: middle;
     border: 5px dotted whitesmoke;
     height: 80%;
     width: 90%;
+    margin-top: 30px;
 }
 
 #frame1 {
@@ -99,5 +97,4 @@ html {
     width: 468px;
     height: 418px;
     text-align: center;
-    vertical-align: middle;
 }
