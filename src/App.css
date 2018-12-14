@@ -50,16 +50,16 @@
 
 #welcomeImg {
   margin-top: 33px;
-  width: 65%;
+  width: 55%;
   height: 85%;
   border: 5px dotted whitesmoke;
 }
 
 #welcomeFrame {
   float: left;
-  width: 65%;
+  width: 75%;
   height: 480px;
-  margin-left: 220px;
+  margin-left: 150px;
   margin-top: 38px;
   background-color: rgba(0,0,0,0.5);
   text-align: center;
