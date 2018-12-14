@@ -41,11 +41,14 @@
   font-size: 20px;
   border: none;
   border-left: 7px solid black;
+
 }
 
 #navButton:hover {
+  transition: 0.4s;
   background-color: black;
-  border-left: 8px dotted red;
+  border-left: 8px dotted darkred;
+  color: darkred;
 }
 
 #welcomeImg {
@@ -73,4 +76,9 @@
   float: left;
   color: whitesmoke;
   font-size: 50px;
+}
+
+#face-icon:hover {
+  transition: 0.4s;
+  color: darkred;
 }

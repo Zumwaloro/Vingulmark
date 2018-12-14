@@ -23,19 +23,19 @@ function NavigationBar() {
   return(
     <div id="navigationbar">
       <br/><br/>
-      <Button label={"Om Vingulmark"}/>
+      <Button label={"Om oss"}/>
       <br/><br/>
-      <Button label={"Trening"}/>
+      <Button label={"Nybegynnertrening"}/>
       <br/><br/>
       <Button label={"Bilder og Media"}/>
       <br/><br/>
-      <Button label={"Nybegynnertreninger"}/>
+      <Button label={"Trening"}/>
       <br/><br/>
       <Button label={"Kalender"}/>
       <br/><br/>
       <Button label={"Lenker"}/>
       <br/><br/>
-      <Button label={"Kontaktinformasjon"}/>
+      <Button label={"Kontakt"}/>
     </div>
   );
 }
