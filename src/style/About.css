@@ -28,7 +28,7 @@ html {
     border-color: black;
     border-width: 5px;
     height: 550px;
-    width: 150px;
+    width: 75px;
     margin-left: 20px;
   }
   
@@ -64,26 +64,40 @@ html {
     color: darkred;
   }
 
+  #textDiv {
+      margin-left: 20px;
+      overflow: auto;
+  }
+
  #text-first {
      background-color: rgba(0,0,0,0.7);
      margin-top: 43px;
-     width: 75%;
+     width: 30%;
      height: 70%;
      color: whitesmoke;
      padding: 20px;
      text-align: justify;
      margin-left: 250px;
-     border: 5px solid black;
+     float: left;
  }
 
- #text-second {
+
+ #about1 {
+    margin-top: 43px;
+    margin-left: 20px;
+    float: middle;
+    border: 5px dotted whitesmoke;
+    height: 80%;
+    width: 90%;
+}
+
+#frame1 {
+    float: right;
+    margin-top: 43px;
+    margin-right: 232px;
     background-color: rgba(0,0,0,0.7);
-    margin-top: 10px;
-    width: 75%;
-    height: 70%;
-    color: whitesmoke;
-    padding: 20px;
-    text-align: justify;
-    margin-left: 250px;
-    border: 5px solid black;
+    width: 468px;
+    height: 418px;
+    text-align: center;
+    vertical-align: middle;
 }
