@@ -9,7 +9,7 @@ function NavigationBar() {
         <br/><br/>
         <Button label={"Nybegynnertrening"}/>
         <br/><br/>
-        <Button label={"Bilder og Media"}/>
+        <Button label={"Bilder og media"}/>
         <br/><br/>
         <Button label={"Trening"}/>
         <br/><br/>
