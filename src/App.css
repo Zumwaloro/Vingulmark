@@ -8,17 +8,19 @@
 
 #home {
   background-color: black;
-  height: 140px;
+  height: 150px;
   width: 100%;
-
+  overflow: auto;
 }
 
 #index-header {
+  float: right;
+  margin-top: 5px;
+  margin-right: 25%;
+  text-align: center;
   height: 140px;
   width: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+
 }
 
 #navigationbar {
@@ -66,8 +68,9 @@
 }
 
 #face-icon {
-  top: 0px;
-  right: 0px;
+  margin-left: 100px;
+  margin-top: 45px;
+  float: left;
   color: whitesmoke;
   font-size: 50px;
 }

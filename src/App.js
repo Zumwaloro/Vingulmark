@@ -5,12 +5,11 @@ import homeWelcome from './img/stock/home.jpg';
 
 function Header({headRef, headId}) {
   return(
-    <div>
       <header id="home">
-         <img src={headRef} id={headId}></img>
+        <img src={headRef} id={headId}></img> 
+        <LinkIcon icon="fab fa-facebook-square" link="https://www.facebook.com/Vingulmarkhaerkampgruppe/" idRef="face-icon" />
       </header>
-      <LinkIcon icon="fab fa-facebook-square" link="https://www.facebook.com/Vingulmarkhaerkampgruppe/" idRef="face-icon" />
-    </div>
+  
   );
 }
 
@@ -51,7 +50,7 @@ function ImgHolder ({img, imgId, frame}) {
 
 function LinkIcon ({icon, link, idRef}) {
   return(
-    <a href={link} id={idRef} target="_blank"><i class={icon}></i></a>
+    <a href={link} target="_blank"><i class={icon} id={idRef}></i></a>
   );
 }
 
