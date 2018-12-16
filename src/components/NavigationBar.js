@@ -5,19 +5,19 @@ function NavigationBar() {
     return(
       <div id="navigationbar">
         <br/><br/>
-        <Button label={"Om oss"}/>
+        <Button label={"Om oss"} path="/about"/>
         <br/><br/>
-        <Button label={"Nybegynnertrening"}/>
+        <Button label={"Nybegynnertrening"} path="/join"/>
         <br/><br/>
-        <Button label={"Bilder og media"}/>
+        <Button label={"Bilder og media"} path="/media"/>
         <br/><br/>
-        <Button label={"Trening"}/>
+        <Button label={"Trening"} path="/training"/>
         <br/><br/>
-        <Button label={"Kalender"}/>
+        <Button label={"Kalender"} path="/calendar"/>
         <br/><br/>
-        <Button label={"Lenker"}/>
+        <Button label={"Lenker"} path="/links"/>
         <br/><br/>
-        <Button label={"Kontakt"}/>
+        <Button label={"Kontakt"} path="/contact"/>
       </div>
     );
   }

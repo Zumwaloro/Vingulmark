@@ -93,6 +93,42 @@ html {
      float: left;
  }
 
+ #text-second {
+  background-color: rgba(0,0,0,0.7);
+  margin-top: 43px;
+  width: 40%;
+  height: 30%;
+  color: whitesmoke;
+  padding: 20px;
+  text-align: justify;
+  margin-left: 50px;
+  float: right;
+}
+
+#text-third {
+  background-color: rgba(0,0,0,0.7);
+  margin-top: 43px;
+  width: 30%;
+  height: 70%;
+  color: whitesmoke;
+  padding: 20px;
+  text-align: justify;
+  margin-left: 250px;
+  float: left;
+}
+
+#text-fourth {
+  background-color: rgba(0,0,0,0.7);
+  margin-top: 43px;
+  width: 30%;
+  height: 70%;
+  color: whitesmoke;
+  padding: 20px;
+  text-align: justify;
+  margin-left: 250px;
+  float: right;
+}
+
 
  #about1 {
     border: 5px dotted whitesmoke;
@@ -109,4 +145,54 @@ html {
     width: 468px;
     height: 418px;
     text-align: center;
+}
+
+#about2 {
+  border: 5px dotted whitesmoke;
+  height: 65%;
+  width: 75%;
+  margin-top: 30px;
+}
+
+#frame2 {
+  float: left;
+  margin-top: 43px;
+  background-color: rgba(0,0,0,0.7);
+  width: 350;
+  height: 200;
+  text-align: center;
+}
+
+#about3 {
+  border: 5px dotted whitesmoke;
+  height: 40%;
+  width: 50%;
+  margin-top: 30px;
+}
+
+#frame3 {
+  float: right;
+  margin-top: 43px;
+  margin-right: 232px;
+  background-color: rgba(0,0,0,0.7);
+  width: 468px;
+  height: 500;
+  text-align: center;
+}
+
+#about4 {
+  border: 5px dotted whitesmoke;
+  height: 50%;
+  width: 60%;
+  margin-top: 30px;
+}
+
+#frame4 {
+  float: left;
+  margin-top: 43px;
+  margin-right: 232px;
+  background-color: rgba(0,0,0,0.7);
+  width: 468px;
+  height: 200;
+  text-align: center;
 }
