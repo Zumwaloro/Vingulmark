@@ -71,7 +71,15 @@
 }
 
 #face-icon {
-  margin-left: 100px;
+  margin-left: 50px;
+  margin-top: 45px;
+  float: left;
+  color: whitesmoke;
+  font-size: 50px;
+}
+
+#home-icon {
+  margin-left: 50px;
   margin-top: 45px;
   float: left;
   color: whitesmoke;
@@ -79,6 +87,11 @@
 }
 
 #face-icon:hover {
+  transition: 0.4s;
+  color: darkred;
+}
+
+#home-icon:hover {
   transition: 0.4s;
   color: darkred;
 }
