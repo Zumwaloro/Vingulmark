@@ -1,17 +1,17 @@
 import React from 'react';
 import {Component} from 'react';
-import Header from './Header';
-import NavigationBar from './NavigationBar';
-import TextElement from './TextElement';
-import ImgHolder from './ImgHolder';
+import Header from '../Header';
+import NavigationBar from '../NavigationBar';
+import TextElement from '../TextElement';
+import ImgHolder from '../ImgHolder';
 
-import headerAbout from '../img/headers/header-about.png';
-import about1 from '../img/stock/about-1.png';
-import about2 from '../img/stock/about-2.jpg';
-import about3 from '../img/stock/about-3.jpg';
-import about4 from '../img/stock/about-4.png';
+import headerAbout from '../../img/headers/header-about.png';
+import about1 from '../../img/stock/about-1.png';
+import about2 from '../../img/stock/about-2.jpg';
+import about3 from '../../img/stock/about-3.jpg';
+import about4 from '../../img/stock/about-4.png';
 
-import '../style/About.css';
+import '../../style/About.css';
 
 const input1 =
     "Vingulmark ble stiftet i 2006 med formålet om å fremme kampsporten “hærkamp”, med fokus på vikingtid, i Oslo-området. "+
