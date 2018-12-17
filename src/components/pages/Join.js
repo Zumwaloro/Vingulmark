@@ -5,6 +5,8 @@ import NavigationBar from '../NavigationBar';
 
 import headerJoin from '../../img/headers/header-join.png';
 
+import '../../style/Join.css';
+
 class Join extends Component {
     render() {
       return (

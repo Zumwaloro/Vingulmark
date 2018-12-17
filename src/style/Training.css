@@ -1,0 +1,77 @@
+html { 
+    background: url(../img/background/bckgrnd.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  #home {
+    background-color: black;
+    height: 150px;
+    width: 100%;
+    overflow: auto;
+  }
+  
+  #training-header {
+    float: right;
+    margin-top: 5px;
+    margin-right: 25%;
+    text-align: center;
+    height: 140px;
+    width: 50%;
+  
+  }
+  
+  #navigationbar {
+    float: left;
+    border-color: black;
+    border-width: 5px;
+    height: 550px;
+    width: 75px;
+    margin-left: 20px;
+  }
+  
+  #navButton {
+    background-color: rgba(0,0,0,0.5);
+    color: whitesmoke;
+    height: 50px;
+    width: 210px;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    border-left: 7px solid black;  
+  }
+  
+  #navButton:hover {
+    transition: 0.4s;
+    background-color: black;
+    border-left: 8px dotted darkred;
+    color: darkred;
+  }
+  
+  #face-icon {
+    margin-left: 50px;
+    margin-top: 45px;
+    float: left;
+    color: whitesmoke;
+    font-size: 50px;
+  }
+
+  #home-icon {
+    margin-left: 50px;
+    margin-top: 45px;
+    float: left;
+    color: whitesmoke;
+    font-size: 50px;
+  }
+  
+  #face-icon:hover {
+    transition: 0.4s;
+    color: darkred;
+  }
+
+  #home-icon:hover {
+    transition: 0.4s;
+    color: darkred;
+  }

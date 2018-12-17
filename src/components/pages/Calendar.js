@@ -5,6 +5,8 @@ import NavigationBar from '../NavigationBar';
 
 import headerCalendar from '../../img/headers/header-calendar.png';
 
+import '../../style/Calendar.css';
+
 class Calendar extends Component {
     render() {
       return (

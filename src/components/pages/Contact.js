@@ -5,6 +5,8 @@ import NavigationBar from '../NavigationBar';
 
 import headerContact from '../../img/headers/header-contact.png';
 
+import '../../style/Contact.css';
+
 class Contact extends Component {
     render() {
       return (

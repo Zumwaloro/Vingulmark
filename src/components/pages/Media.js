@@ -5,6 +5,8 @@ import NavigationBar from '../NavigationBar';
 
 import headerMedia from '../../img/headers/header-media.png';
 
+import '../../style/Media.css';
+
 class Media extends Component {
     render() {
       return (

@@ -5,6 +5,8 @@ import NavigationBar from '../NavigationBar';
 
 import headerLinks from '../../img/headers/header-links.png';
 
+import '../../style/Links.css';
+
 class Links extends Component {
     render() {
       return (

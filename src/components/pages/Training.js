@@ -5,6 +5,8 @@ import NavigationBar from '../NavigationBar';
 
 import headerTraining from '../../img/headers/header-training.png';
 
+import '../../style/Training.css';
+
 class Training extends Component {
     render() {
       return (
