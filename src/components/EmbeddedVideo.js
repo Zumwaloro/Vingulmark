@@ -1,8 +1,9 @@
 import React from 'react';
 
-function EmbeddedVideo({link, idRef}) {
+function EmbeddedVideo({link, title, divId, videoId, test}) {
     return(
-        <div id={idRef}>
+        <div id={divId}>
+            <p id="video-title">{title}</p>
             <iframe width="560" height="315" src={link} frameborder="0"
              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen>

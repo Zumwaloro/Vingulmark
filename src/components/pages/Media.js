@@ -21,12 +21,12 @@ class Media extends Component {
         <div>
           <Header headRef={headerMedia} headId="media-header" />
           <NavigationBar />
-          <EmbeddedVideo link={url1} title="Under Vingulmarks skausautreninghelg i 2013 filmet med headcam" idRef="video"/>
-          <EmbeddedVideo link={url2} title="Vingulmarkere med venner på Ranernas Wargame:" idRef="video"/>
-          <EmbeddedVideo link={url3} title="Vingulmark på Vikverirs treningshelg \“Vinter\”" idRef="video"/>
-          <EmbeddedVideo link={url4} title="Noen vingulmarkere besøkte Alenfit i Bergen" idRef="video"/>
-          <EmbeddedVideo link={url5} title="Et medlem og student lagde en promofilm fra en trening" idRef="video"/>
-          <EmbeddedVideo link={url6} title="Noen studenter kom innom trening og lagde et kort videoclip" idRef="video"/>
+          <EmbeddedVideo link={url1} title="Under Vingulmarks skausautreninghelg i 2013 filmet med headcam" divId="video-frame"/>
+          <EmbeddedVideo link={url2} title="Vingulmarkere med venner på Ranernas Wargame" divId="video-frame"/>
+          <EmbeddedVideo link={url3} title="Vingulmark på Vikverirs treningshelg “Vinter”" divId="video-frame"/>
+          <EmbeddedVideo link={url4} title="Noen vingulmarkere besøkte Alenfit i Bergen" divId="video-frame"/>
+          <EmbeddedVideo link={url5} title="Et medlem og student lagde en promofilm fra en trening" divId="video-frame"/>
+          <EmbeddedVideo link={url6} title="Noen studenter kom innom trening og lagde et kort videoclip" divId="video-frame"/>
         </div>
       );
     }
