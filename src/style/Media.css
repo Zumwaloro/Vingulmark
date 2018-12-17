@@ -75,3 +75,13 @@ html {
     transition: 0.4s;
     color: darkred;
   }
+
+  #video {
+    margin-left: 30%;
+    margin-top: 30px;
+    height: 350px;
+    width: 600px;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    border: 5px dotted darkred;
+  }
