@@ -2,11 +2,12 @@ import React from 'react';
 import {Component} from 'react';
 import Header from '../Header';
 import NavigationBar from '../NavigationBar';
+import EmbeddedVideo from '../EmbeddedVideo';
+import ImageGallery from '../ImageGallery';
 
 import headerMedia from '../../img/headers/header-media.png';
 
 import '../../style/Media.css';
-import EmbeddedVideo from '../EmbeddedVideo';
 
 const url1 = "https://www.youtube.com/embed/XYkoChD3VNU";
 const url2 = "https://www.youtube.com/embed/RsXXKckXjIk";
@@ -27,6 +28,7 @@ class Media extends Component {
           <EmbeddedVideo link={url4} title="Noen vingulmarkere besøkte Alenfit i Bergen" divId="video-frame"/>
           <EmbeddedVideo link={url5} title="Et medlem og student lagde en promofilm fra en trening" divId="video-frame"/>
           <EmbeddedVideo link={url6} title="Noen studenter kom innom trening og lagde et kort videoclip" divId="video-frame"/>
+          <ImageGallery />
         </div>
       );
     }
