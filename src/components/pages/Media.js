@@ -27,8 +27,7 @@ class Media extends Component {
           <EmbeddedVideo link={url3} title="Vingulmark på Vikverirs treningshelg “Vinter”" divId="video-frame"/>
           <EmbeddedVideo link={url4} title="Noen vingulmarkere besøkte Alenfit i Bergen" divId="video-frame"/>
           <EmbeddedVideo link={url5} title="Et medlem og student lagde en promofilm fra en trening" divId="video-frame"/>
-          <EmbeddedVideo link={url6} title="Noen studenter kom innom trening og lagde et kort videoclip" divId="video-frame"/>
-          <ImageGallery />
+          <EmbeddedVideo link={url6} title="Noen studenter kom innom trening og lagde et kort videoclip" divId="video-frame"/>    
         </div>
       );
     }

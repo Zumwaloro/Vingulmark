@@ -75,3 +75,36 @@ html {
     transition: 0.4s;
     color: darkred;
   }
+
+  #contImg {
+    border: 5px dotted darkred;
+    margin-top: 15px;
+    height: 90%;
+    width: 60%;
+  }
+  
+  #contFrame {
+    margin-top: 35px;
+    margin-left: 400px;
+    background-color: rgba(0,0,0,0.7);
+    width: 900px;
+    height: 400px;
+    text-align: center;
+    border: 5px solid black;
+  }
+
+  #contText {
+    margin-left: 450px;
+    margin-top: 40px;
+    color: whitesmoke;
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    width: 800px;
+    height: 50px;
+    text-align: center;
+  }
+
+  #fbRef {
+    color: darkred;
+  }

@@ -2,6 +2,7 @@ import React from 'react';
 import {Component} from 'react';
 import Header from '../Header';
 import NavigationBar from '../NavigationBar';
+import ImageGallery from '../ImageGallery';
 
 import headerLinks from '../../img/headers/header-links.png';
 
@@ -13,6 +14,8 @@ class Links extends Component {
         <div>
           <Header headRef={headerLinks} headId="links-header" />
           <NavigationBar />
+
+          <ImageGallery />
         </div>
       );
     }

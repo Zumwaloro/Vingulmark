@@ -7,6 +7,8 @@ img {vertical-align: middle;}
   max-width: 1000px;
   position: relative;
   margin: auto;
+  margin-top: 150px;
+  margin-left: 300px;
 }
 
 .prev, .next {
@@ -22,6 +24,7 @@ img {vertical-align: middle;}
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  border: 3px dotted darkred;
 }
 
 .next {
@@ -31,6 +34,8 @@ img {vertical-align: middle;}
 
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
+  color: darkred;
+  border: none;
 }
 
 .text {
@@ -56,14 +61,14 @@ img {vertical-align: middle;}
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: whitesmoke;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: darkred;
 }
 
 .fade {

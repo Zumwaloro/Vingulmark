@@ -4,9 +4,9 @@ function Image({numberText, imgSource, caption}) {
     return(
         <div class="mySlides fade">
             <div class="numbertext">{numberText}</div>
-                <img src={imgSource} style="width:100%"/>
+             <img src={imgSource} styles="width:50%"></img>
             <div class="text">{caption}</div>
-        </div> 
+        </div>   
     );
 }
 
