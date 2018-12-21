@@ -3,9 +3,15 @@ import {Component} from 'react';
 import Header from '../Header';
 import NavigationBar from '../NavigationBar';
 import EmbeddedVideo from '../EmbeddedVideo';
-import ImageGallery from '../ImageGallery';
+import ImgHolder from '../ImgHolder';
 
 import headerMedia from '../../img/headers/header-media.png';
+import media1 from '../../img/stock/media-1.jpg'
+import media2 from '../../img/stock/media-2.jpg'
+import media3 from '../../img/stock/media-3.jpg'
+import media4 from '../../img/stock/media-4.jpg'
+import media5 from '../../img/stock/media-5.jpg'
+import media6 from '../../img/stock/media-6.jpg'
 
 import '../../style/Media.css';
 
@@ -27,7 +33,13 @@ class Media extends Component {
           <EmbeddedVideo link={url3} title="Vingulmark på Vikverirs treningshelg “Vinter”" divId="video-frame"/>
           <EmbeddedVideo link={url4} title="Noen vingulmarkere besøkte Alenfit i Bergen" divId="video-frame"/>
           <EmbeddedVideo link={url5} title="Et medlem og student lagde en promofilm fra en trening" divId="video-frame"/>
-          <EmbeddedVideo link={url6} title="Noen studenter kom innom trening og lagde et kort videoclip" divId="video-frame"/>    
+          <EmbeddedVideo link={url6} title="Noen studenter kom innom trening og lagde et kort videoclip" divId="video-frame"/>
+          <ImgHolder img={media1} imgId="img" frame="imgFrame" />
+          <ImgHolder img={media2} imgId="img" frame="imgFrame" />
+          <ImgHolder img={media3} imgId="img" frame="imgFrame" />
+          <ImgHolder img={media4} imgId="img" frame="imgFrame" />
+          <ImgHolder img={media5} imgId="img" frame="imgFrame" />
+          <ImgHolder img={media6} imgId="img" frame="imgFrame" />    
         </div>
       );
     }

@@ -12,18 +12,20 @@ function ImageGallery() {
 
             <div class="slideshow-container">
 
-                <Image numberText="1/1" imgSource={test1} caption="Works!"/>
+                <Image numberText="1/2" imgSource={test1} caption="Works!"/>
+                <Image numberText="2/2" imgSource={test2} caption="Works 2!"/>
 
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div styles="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                </div>
             </div>
 
             <br/>
 
-            <div styles="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span> 
-                <span class="dot" onclick="currentSlide(2)"></span> 
-            </div>
 
             <script src="ImageGalleryFunctionality.js"></script>
 
