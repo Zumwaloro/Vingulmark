@@ -75,3 +75,14 @@ html {
     transition: 0.4s;
     color: darkred;
   }
+
+  #timeline {
+    color: whitesmoke;
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.75);
+    border: 5px dotted darkred;
+    padding: 20px;
+    margin-left: 25%;
+    margin-top: 2%;
+    width: 55%;
+  }
