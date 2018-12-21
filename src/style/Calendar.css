@@ -86,3 +86,8 @@ html {
     margin-top: 2%;
     width: 55%;
   }
+
+  #underscore {
+    width: 55%;
+    border-top: 4px dotted whitesmoke;
+  }

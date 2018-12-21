@@ -15,6 +15,8 @@ class Calendar extends Component {
           <NavigationBar />
           <div id="timeline">
             2018:<br/><br/>
+            <div id="underscore" ></div>
+            <br/>
             Vinter treningshelg, Halden: 9 - 11. februar<br/>
             Vingulmarks nybegynnerkurs, vinter: 14. februar - 21. mars<br/>
             Landa treninghelg, Rogaland: 16 - 18. mars<br/>
@@ -30,6 +32,8 @@ class Calendar extends Component {
           <br/>
           <div id="timeline">
             2016:<br/><br/>
+            <div id="underscore" ></div>
+            <br/>
             Medlemsmøte: 16. februar<br/>
             Vikverirs Winter 2016: 26 - 28. februar<br/>
             Vestgötas treningshelg: 18 - 20. mars<br/>
@@ -51,6 +55,8 @@ class Calendar extends Component {
           <br/>
           <div id="timeline">
             2015:<br/><br/>
+            <div id="underscore" ></div>
+            <br/>
             Vikverirs Vinter treningshelg: 13 - 15. februar<br/>
             Landa treningshelg: 20. mars<br/>
             Vårens nybegynnerkurs: 12. arpril<br/>
@@ -68,6 +74,8 @@ class Calendar extends Component {
           <br/>
           <div id="timeline">
             2014:<br/><br/>
+            <div id="underscore" ></div>
+            <br/>
             Vinter treningshelg: 14 - 16. februar<br/>
             Landa treningshelg: 28 - 30. mars<br/>
             Västgöta hird treningshelg: 4 - 6. april<br/>
@@ -86,6 +94,8 @@ class Calendar extends Component {
           <br/>
           <div id="timeline">
             2013:<br/><br/>
+            <div id="underscore" ></div>
+            <br/>
             Kvennin: 26 - 29 september<br/>
             Slaget om Hisingen: 13 - 14. september<br/>
             Wargamet.: 31. august - 1. september<br/>
@@ -102,6 +112,8 @@ class Calendar extends Component {
           <br/>
           <div id="timeline">
             2012:<br/><br/>
+            <div id="underscore" ></div>
+            <br/>
             Kvennin treningshelg: 28 - 30. september<br/>
             Slaget om Hisingen, Sverige: 7 - 9. september<br/>
             Ranernes Wargames, Sverige: 24 - 26. august<br/>
