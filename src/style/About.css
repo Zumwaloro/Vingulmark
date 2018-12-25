@@ -151,6 +151,7 @@ html {
     padding: 15px;
     border-radius: 10px;
     font-size: 30px;
+    transition: 1.0s;
   }
   
   #topButton:hover {
@@ -158,4 +159,5 @@ html {
     color: darkred;
     border-bottom: 6px dotted whitesmoke;
     transition: 0.3s;
+    font-size: 35px;
   }

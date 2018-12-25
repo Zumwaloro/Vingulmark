@@ -57,6 +57,7 @@
   width: 55%;
   height: 85%;
   border: 5px dotted whitesmoke;
+  border-radius: 15px;
 }
 
 #welcomeFrame {
