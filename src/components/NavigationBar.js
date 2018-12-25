@@ -7,7 +7,7 @@ function NavigationBar() {
         <br/><br/>
         <Button label={"Om oss"} path="/about"/>
         <br/><br/>
-        <Button label={"Nybegynnertrening"} path="/join"/>
+        <Button label={"Bli medlem"} path="/join"/>
         <br/><br/>
         <Button label={"Bilder og media"} path="/media"/>
         <br/><br/>

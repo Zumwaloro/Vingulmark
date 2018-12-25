@@ -75,3 +75,31 @@ html {
     transition: 0.4s;
     color: darkred;
   }
+
+  #imgFrame {
+    margin-left: 25%;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.7);
+    width: 60%;
+  }
+
+
+  #joinImg {
+    width: 50%;
+    height: 100%;
+    border: 5px dotted whitesmoke;
+  }
+
+
+  #text-input {
+    white-space: pre-wrap;
+    background-color: rgba(0,0,0,0.7);
+    border-left: 5px solid black;
+    border-right:  5px solid black;
+    color: whitesmoke;
+    padding: 20px;
+    margin-left: 25%;
+    width: 58%;
+  }
