@@ -2,6 +2,7 @@ import React from 'react';
 import {Component} from 'react';
 import Header from '../Header';
 import NavigationBar from '../NavigationBar';
+import TopButton from '../TopButton';
 
 import headerCalendar from '../../img/headers/header-calendar.png';
 
@@ -124,6 +125,7 @@ class Calendar extends Component {
             Skausauens treningshelg: 26 - 27. mai<br/>
             Västgöta hird treningshelg: 13 - 15. april<br/>
           </div>
+          <TopButton icon="fas fa-chevron-up" idRef="topButton"/>
           <br/>
         </div>
       );

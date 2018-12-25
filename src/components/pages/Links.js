@@ -2,6 +2,7 @@ import React from 'react';
 import {Component} from 'react';
 import Header from '../Header';
 import NavigationBar from '../NavigationBar';
+import TopButton from '../TopButton';
 
 import headerLinks from '../../img/headers/header-links.png';
 
@@ -48,6 +49,7 @@ class Links extends Component {
             Forening for blankvåpenkamp og reenactment i Drammen og Kongsberg: <a href="http://www.vikverir.no" id="link-text" target="_blank">http://www.vikverir.no</a><br/>
             Forening for blankvåpenkamp og reenactment i Horten: <a href="http://www.borrefylkingen.net" id="link-text" target="_blank">http://www.borrefylkingen.net </a><br/>           
           </div>
+          <TopButton icon="fas fa-chevron-up" idRef="topButton"/>
           <br/>
         </div>
       );

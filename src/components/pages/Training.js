@@ -4,7 +4,8 @@ import Header from '../Header';
 import NavigationBar from '../NavigationBar';
 import TextElement from '../TextElement';
 import ImgHolder from '../ImgHolder';
-import Map from '../Map'
+import Map from '../Map';
+import TopButton from '../TopButton';
 
 import headerTraining from '../../img/headers/header-training.png';
 import traning1 from '../../img/stock/traning-1.jpg'
@@ -100,6 +101,7 @@ class Training extends Component {
           <Map source="https://kart.gulesider.no/m/hlOwm?embed=true&center=59.89387758971056,10.788606405258179&zoom=16&layer=aerial" id="map1" />
           <ImgHolder img={traning2} imgId="trainingImg2" frame="imgFrame2"/>
           <TextElement text={input2} id="text-input2" />
+          <TopButton icon="fas fa-chevron-up" idRef="topButton"/>
           <br/>
         </div>
       );

@@ -4,6 +4,7 @@ import Header from '../Header';
 import NavigationBar from '../NavigationBar';
 import EmbeddedVideo from '../EmbeddedVideo';
 import ImgHolder from '../ImgHolder';
+import TopButton from '../TopButton';
 
 import headerMedia from '../../img/headers/header-media.png';
 import media1 from '../../img/stock/media-1.jpg'
@@ -39,7 +40,8 @@ class Media extends Component {
           <ImgHolder img={media3} imgId="img" frame="imgFrame" />
           <ImgHolder img={media4} imgId="img" frame="imgFrame" />
           <ImgHolder img={media5} imgId="img" frame="imgFrame" />
-          <ImgHolder img={media6} imgId="img" frame="imgFrame" />    
+          <ImgHolder img={media6} imgId="img" frame="imgFrame" /> 
+          <TopButton icon="fas fa-chevron-up" idRef="topButton"/>   
         </div>
       );
     }

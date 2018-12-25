@@ -4,6 +4,7 @@ import Header from '../Header';
 import NavigationBar from '../NavigationBar';
 import ImgHolder from '../ImgHolder';
 import TextElement from '../TextElement';
+import TopButton from '../TopButton';
 
 import headerJoin from '../../img/headers/header-join.png';
 import join1 from '../../img/stock/join-1.jpg';
@@ -131,6 +132,7 @@ class Join extends Component {
           <ImgHolder img={join3} imgId="joinImg2" frame="imgFrame2"/>
           <TextElement text={input3} id="text-input" />
           <ImgHolder img={join4} imgId="joinImg2" frame="imgFrame3"/>
+          <TopButton icon="fas fa-chevron-up" idRef="topButton"/>
           <br/>
         </div>
       );

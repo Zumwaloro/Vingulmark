@@ -4,6 +4,7 @@ import Header from '../Header';
 import NavigationBar from '../NavigationBar';
 import TextElement from '../TextElement';
 import ImgHolder from '../ImgHolder';
+import TopButton from '../TopButton';
 
 import headerAbout from '../../img/headers/header-about.png';
 import about1 from '../../img/stock/about-1.png';
@@ -53,6 +54,7 @@ class AboutUs extends Component {
             <TextElement text={input3} id="text" />
             <ImgHolder img={about4} imgId="about2" frame="frame3"/>
             <br/>
+            <TopButton icon="fas fa-chevron-up" idRef="topButton"/>
           </div>
         </div>
       );
