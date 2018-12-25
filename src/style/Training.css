@@ -75,3 +75,69 @@ html {
     transition: 0.4s;
     color: darkred;
   }
+
+  #imgFrame {
+    margin-left: 25%;
+    margin-top: 2.5%;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.7);
+  }
+
+  #imgFrame2 {
+    margin-left: 25%;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.7);
+    width: 60%;
+  }
+
+
+  #trainingImg {
+    width: 50%;
+    height: 100%;
+    border: 5px dotted whitesmoke;
+  }
+
+  #trainingImg2 {
+    width: 50%;
+    height: 100%;
+    border: 5px dotted whitesmoke;
+    margin-left: 25%;
+  }
+
+  #text-input {
+    white-space: pre-wrap;
+    background-color: rgba(0,0,0,0.7);
+    border-left: 5px solid black;
+    border-right:  5px solid black;
+    color: whitesmoke;
+    padding: 20px;
+    margin-left: 25%;
+    width: 58%;
+  }
+
+  #text-input2 {
+    white-space: pre-wrap;
+    background-color: rgba(0,0,0,0.7);
+    border-left: 5px solid black;
+    border-right:  5px solid black;
+    border-bottom: 5px solid black;
+    color: whitesmoke;
+    padding: 20px;
+    margin-left: 25%;
+    width: 58%;
+  }
+
+  #map1 {
+    background-color: rgba(0,0,0,0.7);
+    margin-left: 25%;
+    width: 58%;
+    border-right:  5px solid black;
+    border-left: 5px solid black;
+    text-align: center;
+    padding: 20px;
+  }

@@ -49,6 +49,7 @@
   background-color: black;
   border-left: 8px dotted darkred;
   color: darkred;
+  cursor: pointer;
 }
 
 #welcomeImg {
