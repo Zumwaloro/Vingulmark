@@ -34,13 +34,7 @@ class Media extends Component {
           <EmbeddedVideo link={url3} title="Vingulmark på Vikverirs treningshelg “Vinter”" divId="video-frame"/>
           <EmbeddedVideo link={url4} title="Noen vingulmarkere besøkte Alenfit i Bergen" divId="video-frame"/>
           <EmbeddedVideo link={url5} title="Et medlem og student lagde en promofilm fra en trening" divId="video-frame"/>
-          <EmbeddedVideo link={url6} title="Noen studenter kom innom trening og lagde et kort videoclip" divId="video-frame"/>
-          <ImgHolder img={media1} imgId="img" frame="imgFrame" />
-          <ImgHolder img={media2} imgId="img" frame="imgFrame" />
-          <ImgHolder img={media3} imgId="img" frame="imgFrame" />
-          <ImgHolder img={media4} imgId="img" frame="imgFrame" />
-          <ImgHolder img={media5} imgId="img" frame="imgFrame" />
-          <ImgHolder img={media6} imgId="img" frame="imgFrame" /> 
+          <EmbeddedVideo link={url6} title="Noen studenter kom innom trening og lagde et kort videoclip" divId="video-frame"/>         
           <TopButton icon="fas fa-chevron-up" idRef="topButton"/>   
         </div>
       );
@@ -48,3 +42,12 @@ class Media extends Component {
   }
   
   export default Media;
+
+  /*
+  <ImgHolder img={media1} imgId="img" frame="imgFrame" />
+          <ImgHolder img={media2} imgId="img" frame="imgFrame" />
+          <ImgHolder img={media3} imgId="img" frame="imgFrame" />
+          <ImgHolder img={media4} imgId="img" frame="imgFrame" />
+          <ImgHolder img={media5} imgId="img" frame="imgFrame" />
+          <ImgHolder img={media6} imgId="img" frame="imgFrame" />
+          */
