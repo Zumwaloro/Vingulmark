@@ -85,6 +85,26 @@ html {
     width: 60%;
   }
 
+  #imgFrame2 {
+    margin-left: 25%;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.7);
+    width: 60%;
+    text-align: center;
+  }
+
+  #imgFrame3 {
+    margin-left: 25%;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.7);
+    width: 60%;
+    text-align: center;
+  }
 
   #joinImg {
     width: 50%;
@@ -92,6 +112,11 @@ html {
     border: 5px dotted whitesmoke;
   }
 
+  #joinImg2 { 
+    width: 50%;
+    height: 100%;
+    border: 5px dotted whitesmoke;
+  }
 
   #text-input {
     white-space: pre-wrap;
