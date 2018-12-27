@@ -42,12 +42,3 @@ class Media extends Component {
   }
   
   export default Media;
-
-  /*
-  <ImgHolder img={media1} imgId="img" frame="imgFrame" />
-          <ImgHolder img={media2} imgId="img" frame="imgFrame" />
-          <ImgHolder img={media3} imgId="img" frame="imgFrame" />
-          <ImgHolder img={media4} imgId="img" frame="imgFrame" />
-          <ImgHolder img={media5} imgId="img" frame="imgFrame" />
-          <ImgHolder img={media6} imgId="img" frame="imgFrame" />
-          */

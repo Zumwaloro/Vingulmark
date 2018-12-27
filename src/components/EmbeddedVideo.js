@@ -1,6 +1,6 @@
 import React from 'react';
 
-function EmbeddedVideo({link, title, divId, videoId, test}) {
+function EmbeddedVideo({link, title, divId, videoId}) {
     return(
         <div id={divId}>
             <p id="video-title">{title}</p>
