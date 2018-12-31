@@ -15,6 +15,7 @@ import media5 from '../../img/stock/media-5.jpg'
 import media6 from '../../img/stock/media-6.jpg'
 
 import '../../style/Media.css';
+import ImageGallery from '../ImageGallery';
 
 const url1 = "https://www.youtube.com/embed/XYkoChD3VNU";
 const url2 = "https://www.youtube.com/embed/RsXXKckXjIk";
@@ -34,7 +35,8 @@ class Media extends Component {
           <EmbeddedVideo link={url3} title="Vingulmark på Vikverirs treningshelg “Vinter”" divId="video-frame"/>
           <EmbeddedVideo link={url4} title="Noen vingulmarkere besøkte Alenfit i Bergen" divId="video-frame"/>
           <EmbeddedVideo link={url5} title="Et medlem og student lagde en promofilm fra en trening" divId="video-frame"/>
-          <EmbeddedVideo link={url6} title="Noen studenter kom innom trening og lagde et kort videoclip" divId="video-frame"/>         
+          <EmbeddedVideo link={url6} title="Noen studenter kom innom trening og lagde et kort videoclip" divId="video-frame"/>
+          <ImageGallery />         
           <TopButton icon="fas fa-chevron-up" idRef="topButton"/>   
         </div>
       );
