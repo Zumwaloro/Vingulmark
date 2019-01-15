@@ -15,12 +15,11 @@
 
 #index-header {
   float: right;
-  margin-top: 5px;
-  margin-right: 25%;
-  text-align: center;
-  height: 140px;
-  width: 50%;
-
+    margin-top: 5px;
+    margin-right: 20%;
+    text-align: center;
+    height: 140px;
+    width: 55%;
 }
 
 #navigationbar {
@@ -58,6 +57,16 @@
   height: 85%;
   border: 5px dotted whitesmoke;
   border-radius: 15px;
+  transition: 0.4s;
+}
+
+#welcomeImg:hover {
+  margin-top: 33px;
+  width: 55%;
+  height: 85%;
+  border: 5px dotted darkred;
+  border-radius: 15px;
+  transition: 0.4s;
 }
 
 #welcomeFrame {
@@ -70,6 +79,7 @@
   text-align: center;
   vertical-align: middle;
   border: 5px solid black;
+  border-radius: 15px;
 }
 
 #face-icon {

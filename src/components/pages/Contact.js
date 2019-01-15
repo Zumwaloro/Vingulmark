@@ -18,10 +18,10 @@ class Contact extends Component {
           <Header headRef={headerContact} headId="contact-header" />
           <NavigationBar />
           <div id="contactRef">
-            <p id="contText">Ta kontakt med oss på vingulmark_styret@googlegroups.com eller på <a href="https://www.facebook.com/groups/792685390773832/?ref=br_rs" target="_blank" id="fbRef">Facebook!</a></p>
+            <p id="contText">Ta kontakt med oss på vingulmark_styret@googlegroups.com eller på <a href="https://www.facebook.com/Vingulmarkhaerkampgruppe/" target="_blank" id="fbRef">Facebook!</a></p>
           </div>
           <ImgHolder img={contactImg} imgId={"contImg"} frame={"contFrame"} />
-          <TopButton />
+          <TopButton icon="fas fa-chevron-up" idRef="topButton"/>   
         </div>
       );
     }

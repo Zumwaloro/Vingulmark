@@ -8,7 +8,7 @@ function LinkIcon ({icon, link, idRef}) {
       );
     } else {
       return(
-        <Link to="/" target="_self">
+        <Link to="/">
           <i class={icon} id={idRef}></i>
         </Link>
       );    
